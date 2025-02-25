@@ -54,7 +54,7 @@ body {
     padding: auto;
     padding-left: 0;
     margin: 0, 10px;
-    flex-wrap: wrap;
+    position: sticky;
   }
   
   .item a {
@@ -173,19 +173,13 @@ body {
   html {
     scroll-behavior: smooth;
   }
-  .sanjai {
-    display: grid;
-    grid-template-columns: repeat(3, 2fr);
-    column-gap: 50px;
-    row-gap: 50px;
+  .sanjai{
+    row-gap: 30px;
+    object-fit: cover;
   }
-  
   .sanjai img {
     height: 400px;
     width: 400px;
-  }
-  .border i {
-    color: black;
   }
   .hh {
     background-image: linear-gradient(
@@ -195,9 +189,10 @@ body {
     color: rgb(19, 5, 90);
     text-transform: uppercase;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-    border: 10px black;
-    position: relative;
     cursor: pointer;
+    box-sizing: border-box;
+    overflow: hidden;
+    object-fit: cover;
   }
   .hh h1 {
     display: flex;
@@ -205,4 +200,6 @@ body {
     font-style: normal;
     align-items: center;
   }
+
+
   
