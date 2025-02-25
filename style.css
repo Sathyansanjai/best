@@ -12,10 +12,8 @@ body {
     font-style: italic;
   }
   
-  .imgage {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
+  .img { width: 200px;
+  height: 200px;
   }
   
   .navbar {
@@ -107,10 +105,11 @@ body {
   
   .image {
     display: flex;
-    gap: 4px;
-    align-items: center;
     justify-content: space-around;
     flex-grow: 1;
+    row-gap: 3px;
+    flex-wrap: wrap;
+      object-fit: cover;
   }
   .quotes {
     display: flex;
