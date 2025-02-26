@@ -121,8 +121,12 @@ body {
       rgba(225, 219, 226, 0.781)
     );
     font-size: larger;
-    box-shadow: 10px 10px 8px black;
+    box-shadow: 10px 10px  8px black;
     border-radius: 15px;
+  }
+  .quotes:hover{
+  box-shadow: 15px 15px 10px rgb(25, 2, 68);
+  background-image: linear-gradient(rgba(16, 17, 1, 0.726), rgba(231, 211, 211, 0.87));
   }
   
   .quotes h1 {
