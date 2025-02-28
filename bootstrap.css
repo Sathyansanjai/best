@@ -2507,10 +2507,11 @@
     border-color: #007bff;
   }
   
-  .btn-primary:hover {
+.btn-primary:hover {
     color: #fff;
-    background-color: #0069d9;
-    border-color: #0062cc;
+    background-color: #0de09a;
+    border-color: #e5eee2;  
+    
   }
   
   .btn-primary:focus, .btn-primary.focus {
